@@ -1,0 +1,30 @@
+.input-container {
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Widen the input container */
+    max-width: 400px; /* Set a maximum width to control the input length */
+  }
+  
+  .input-container input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .add-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #333333;
+    margin-left: 10px;
+    transition: color 0.2s ease;
+  }
+  
+  .add-icon:hover {
+    color: #4CAF50;
+  }
+  
